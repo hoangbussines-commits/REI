@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "realisticrecipe:pig_iron_raw"
+  },
+  "result": "minecraft:iron_ingot",
+  "experience": 0.3,
+  "cookingtime": 200
+}

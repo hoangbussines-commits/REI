@@ -1,0 +1,29 @@
+{
+  "parent": "realisticrecipe:root",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:refined_iron"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.refined_iron.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.refined_iron.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_refined_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:refined_iron"]
+          }
+        ]
+      }
+    }
+  }
+}

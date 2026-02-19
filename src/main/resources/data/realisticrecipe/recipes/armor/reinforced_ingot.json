@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "RIT",
+    "   "
+  ],
+  "key": {
+    "T": {
+      "item": "realisticrecipe:titanium_ingot"
+    },
+    "R": {
+      "item": "realisticrecipe:refined_iron_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "realisticrecipe:reinforced_ingot",
+    "count": 2
+  }
+}

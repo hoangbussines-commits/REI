@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": { "item": "minecraft:coal_block" },
+  "result": "realisticrecipe:graphite_ingot",
+  "count": 9,
+  "experience": 2.7,
+  "cookingtime": 1800
+}

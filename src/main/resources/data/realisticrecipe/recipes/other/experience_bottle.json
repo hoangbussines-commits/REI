@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ECE",
+    "CRC",
+    "ECE"
+  ],
+  "key": {
+    "E": {
+      "item": "realisticrecipe:elite_alloy_controller"
+    },
+    "C": {
+      "item": "realisticrecipe:controller_chip"
+    },
+    "R": {
+      "item": "realisticrecipe:reinforced_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:experience_bottle",
+    "count": 12
+  }
+}

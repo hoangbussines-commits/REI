@@ -1,0 +1,29 @@
+{
+  "parent": "realisticrecipe:reinforced_ingot",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:reinforced_shovel"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.reinforced_shovel.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.reinforced_shovel.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:reinforced_shovel"]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PRP",
+    "RCR",
+    "PRP"
+  ],
+  "key": {
+    "P": {
+      "item": "realisticrecipe:iron_plate"
+    },
+    "R": {
+      "item": "realisticrecipe:refined_iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "realisticrecipe:controller_chip",
+    "count": 1
+  }
+}

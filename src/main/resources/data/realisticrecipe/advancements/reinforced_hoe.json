@@ -1,0 +1,29 @@
+{
+  "parent": "realisticrecipe:reinforced_ingot",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:reinforced_hoe"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.reinforced_hoe.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.reinforced_hoe.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:reinforced_hoe"]
+          }
+        ]
+      }
+    }
+  }
+}

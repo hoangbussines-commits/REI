@@ -1,0 +1,29 @@
+{
+  "parent": "realisticrecipe:reinforced_ingot",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:reinforced_chestplate"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.reinforced_chestplate.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.reinforced_chestplate.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:reinforced_chestplate"]
+          }
+        ]
+      }
+    }
+  }
+}

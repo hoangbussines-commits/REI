@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RI",
+    "IR"
+  ],
+  "key": {
+    "R": {
+      "item": "realisticrecipe:refined_iron"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "realisticrecipe:refined_iron_ingot",
+    "count": 1
+  }
+}

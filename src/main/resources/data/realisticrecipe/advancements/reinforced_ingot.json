@@ -1,0 +1,55 @@
+{
+  "parent": "realisticrecipe:titanium_ingot",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:reinforced_ingot"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.reinforced_ingot.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.reinforced_ingot.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "hidden": false
+  },
+  "criteria": {
+    "has_titanium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:titanium_ingot"]
+          }
+        ]
+      }
+    },
+    "has_refined_iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:refined_iron_ingot"]
+          }
+        ]
+      }
+    },
+    "get_reinforced": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:reinforced_ingot"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_titanium", "has_refined_iron_ingot"],
+    ["get_reinforced"]
+  ]
+}

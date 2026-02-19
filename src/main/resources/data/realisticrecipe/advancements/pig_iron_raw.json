@@ -1,0 +1,29 @@
+{
+  "parent": "realisticrecipe:raw_iron",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:pig_iron_raw"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.pig_iron_raw.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.pig_iron_raw.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_pig_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:pig_iron_raw"]
+          }
+        ]
+      }
+    }
+  }
+}

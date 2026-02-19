@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="realisticrecipe"
+version="1.0.0"
+displayName="REI Beta"
+logoFile="logo.png"
+authors=["HycordTeams"]
+credits="Hycord Server(motivator), Ronnas [DucOanh](author's friend)"
+description='''
+The REI (Realistic energy industrial) Industrial mod is largely based on vanilla-based equipment and pre-built blocks..
+'''
+[[dependencies.realisticrecipe]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.realisticrecipe]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"
+[builtin_datapacks]
+
+[[builtin_datapacks.entries]]
+id = "realisticrecipe_disable_iron"
+path = "datapacks/realisticrecipe_disable_iron"
+

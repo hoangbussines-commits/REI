@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C C",
+    " P ",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "item": "realisticrecipe:controller_chip"
+    },
+    "P": {
+      "item": "realisticrecipe:iron_plate"
+    }
+  },
+  "result": {
+    "item": "minecraft:netherite_upgrade_smithing_template",
+    "count": 1
+  }
+}

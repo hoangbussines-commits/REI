@@ -1,0 +1,29 @@
+{
+  "parent": "realisticrecipe:reinforced_ingot",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:reinforced_pickaxe"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.reinforced_pickaxe.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.reinforced_pickaxe.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:reinforced_pickaxe"]
+          }
+        ]
+      }
+    }
+  }
+}

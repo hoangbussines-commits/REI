@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "realisticrecipe:refined_iron",
+  "experience": 0.2,
+  "cookingtime": 100
+}

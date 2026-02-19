@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:controller_chip"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.root.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.root.desc"
+    },
+    "background": "minecraft:textures/block/stone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

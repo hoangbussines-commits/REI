@@ -1,0 +1,32 @@
+{
+  "parent": "realisticrecipe:reinforced_ingot",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:alloy_infused"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.alloy_infused.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.alloy_infused.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_alloy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "realisticrecipe:alloy_infused"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

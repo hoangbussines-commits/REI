@@ -1,0 +1,29 @@
+{
+  "parent": "realisticrecipe:root",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:controller_chip"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.controller_chip.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.controller_chip.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_chip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:controller_chip"]
+          }
+        ]
+      }
+    }
+  }
+}

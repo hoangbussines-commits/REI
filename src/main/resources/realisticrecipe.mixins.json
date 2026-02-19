@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.realisticrecipe.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "realisticrecipe.refmap.json",
+  "mixins": [
+    "MixinRecipeManager",
+    "MixinRecipeManagerIronTools"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

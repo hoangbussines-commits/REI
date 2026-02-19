@@ -1,0 +1,94 @@
+{
+  "item.realisticrecipe.refined_iron": "Refined Iron",
+  "item.realisticrecipe.refined_iron_ingot": "Refined Iron Ingot",
+  "item.realisticrecipe.controller_chip": "Controller Chip",
+  "item.realisticrecipe.iron_plate": "Iron Plate",
+  "block.realisticrecipe.hopper_tier_1": "Hopper Tier I",
+  "creativetab.realisticrecipe": "Realistic Recipe",
+  "item.realisticrecipe.titanium_ingot": "Titanium Ingot",
+  "item.realisticrecipe.raw_titanium": "Raw Titanium",
+  "item.realisticrecipe.reinforced_ingot": "Reinforced Ingot",
+  "item.realisticrecipe.reinforced_helmet": "Reinforced Helmet",
+  "item.realisticrecipe.reinforced_chestplate": "Reinforced Chestplate",
+  "item.realisticrecipe.reinforced_leggings": "Reinforced Leggings",
+  "item.realisticrecipe.reinforced_boots": "Reinforced Boots",
+  "item.realisticrecipe.reinforced_sword": "Reinforced Sword",
+  "item.realisticrecipe.reinforced_pickaxe": "Reinforced Pickaxe",
+  "item.realisticrecipe.reinforced_axe": "Reinforced Axe",
+  "item.realisticrecipe.reinforced_shovel": "Reinforced Shovel",
+  "item.realisticrecipe.reinforced_hoe": "Reinforced Hoe",
+  "block.realisticrecipe.fuel_generator": "Fuel Generator",
+  "item.realisticrecipe.alloy_infused": "Infused Alloy",
+  "item.realisticrecipe.elite_alloy_controller": "Elite Alloy Controller",
+  "item.realisticrecipe.titanium_nugget": "Titanium Nugget",
+  "item.realisticrecipe.pig_iron_raw": "Raw Pig Iron",
+  "item.realisticrecipe.graphite_ingot": "Graphite Ingot",
+
+  "advancement.realisticrecipe.root.title": "Realistic Recipe",
+  "advancement.realisticrecipe.root.desc": "The foundation of industrial progression",
+
+  "advancement.realisticrecipe.iron_plate.title": "Metal Forming",
+  "advancement.realisticrecipe.iron_plate.desc": "Produce your first iron plate",
+
+  "advancement.realisticrecipe.controller_chip.title": "Industrial Logic",
+  "advancement.realisticrecipe.controller_chip.desc": "Craft your first controller chip",
+
+  "advancement.realisticrecipe.refined_iron.title": "Refined Iron",
+  "advancement.realisticrecipe.refined_iron.desc": "Produce refined iron through advanced processing",
+
+  "advancement.realisticrecipe.refined_iron_ingot.title": "Refined Iron Ingot",
+  "advancement.realisticrecipe.refined_iron_ingot.desc": "Combine iron and refined iron into a superior ingot",
+
+  "advancement.realisticrecipe.raw_titanium.title": "Titanium Discovered",
+  "advancement.realisticrecipe.raw_titanium.desc": "Find raw titanium while mining diamond or gold",
+
+  "advancement.realisticrecipe.titanium_ingot.title": "Titanium Age",
+  "advancement.realisticrecipe.titanium_ingot.desc": "Smelt raw titanium into ingots",
+
+  "advancement.realisticrecipe.reinforced_ingot.title": "Reinforced!",
+  "advancement.realisticrecipe.reinforced_ingot.desc": "Craft the ultimate alloy - Reinforced Ingot",
+
+  "advancement.realisticrecipe.reinforced_helmet.title": "Head of the Game",
+  "advancement.realisticrecipe.reinforced_helmet.desc": "Craft a Reinforced Helmet",
+
+  "advancement.realisticrecipe.reinforced_chestplate.title": "Heart of Steel",
+  "advancement.realisticrecipe.reinforced_chestplate.desc": "Craft a Reinforced Chestplate",
+
+  "advancement.realisticrecipe.reinforced_leggings.title": "Leg Days",
+  "advancement.realisticrecipe.reinforced_leggings.desc": "Craft Reinforced Leggings",
+
+  "advancement.realisticrecipe.reinforced_boots.title": "Well Grounded",
+  "advancement.realisticrecipe.reinforced_boots.desc": "Craft Reinforced Boots",
+
+  "advancement.realisticrecipe.reinforced_full.title": "Fully Reinforced",
+  "advancement.realisticrecipe.reinforced_full.desc": "Wear a full set of Reinforced Armor",
+
+  "advancement.realisticrecipe.reinforced_sword.title": "One-Hit Wonder",
+  "advancement.realisticrecipe.reinforced_sword.desc": "Craft a Reinforced Sword (57 damage!)",
+
+  "advancement.realisticrecipe.reinforced_pickaxe.title": "Rock Crusher",
+  "advancement.realisticrecipe.reinforced_pickaxe.desc": "Craft a Reinforced Pickaxe",
+
+  "advancement.realisticrecipe.raw_iron.title": "Raw Material",
+  "advancement.realisticrecipe.raw_iron.desc": "Mine your first raw iron",
+
+  "advancement.realisticrecipe.pig_iron_raw.title": "Pig Iron",
+  "advancement.realisticrecipe.pig_iron_raw.desc": "Smelt raw iron into pig iron",
+
+  "advancement.realisticrecipe.iron_ingot.title": "Refined Metal",
+  "advancement.realisticrecipe.iron_ingot.desc": "Smelt pig iron into actual iron ingot",
+
+  "advancement.realisticrecipe.reinforced_axe.title": "Tree Feller",
+  "advancement.realisticrecipe.reinforced_axe.desc": "Craft a Reinforced Axe",
+
+  "advancement.realisticrecipe.reinforced_shovel.title": "Terraformer",
+  "advancement.realisticrecipe.reinforced_shovel.desc": "Craft a Reinforced Shovel",
+
+  "advancement.realisticrecipe.reinforced_hoe.title": "Master Farmer",
+  "advancement.realisticrecipe.reinforced_hoe.desc": "Craft a Reinforced Hoe",
+  "advancement.realisticrecipe.elite_alloy_controller.title": "Elite Alloy Controller",
+  "advancement.realisticrecipe.elite_alloy_controller.desc": "The ultimate fusion of Controller Chip, Reinforced Ingot and Infused Alloy",
+
+  "advancement.realisticrecipe.alloy_infused.title": "Infused Alloy",
+  "advancement.realisticrecipe.alloy_infused.desc": "Create the mysterious Infused Alloy using Reinforced Ingot, Redstone and Iron"
+}

@@ -1,0 +1,66 @@
+{
+  "parent": "realisticrecipe:reinforced_ingot",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:reinforced_chestplate"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.reinforced_full.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.reinforced_full.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:reinforced_helmet"]
+          }
+        ]
+      }
+    },
+    "has_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:reinforced_chestplate"]
+          }
+        ]
+      }
+    },
+    "has_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:reinforced_leggings"]
+          }
+        ]
+      }
+    },
+    "has_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:reinforced_boots"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_helmet"],
+    ["has_chestplate"],
+    ["has_leggings"],
+    ["has_boots"]
+  ]
+}

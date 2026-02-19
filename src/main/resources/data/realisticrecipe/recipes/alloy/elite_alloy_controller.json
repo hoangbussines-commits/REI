@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "realisticrecipe:controller_chip" },
+  "base": { "item": "realisticrecipe:alloy_infused" },
+  "addition": { "item": "realisticrecipe:reinforced_ingot" },
+  "result": { "item": "realisticrecipe:elite_alloy_controller" }
+}

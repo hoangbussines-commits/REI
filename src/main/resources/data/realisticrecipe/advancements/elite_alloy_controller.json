@@ -1,0 +1,69 @@
+{
+  "parent": "realisticrecipe:controller_chip",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:elite_alloy_controller"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.elite_alloy_controller.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.elite_alloy_controller.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_controller": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:controller_chip"]
+          }
+        ]
+      }
+    },
+    "has_reinforced": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:reinforced_ingot"]
+          }
+        ]
+      }
+    },
+    "has_alloy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:alloy_infused"]
+          }
+        ]
+      }
+    },
+    "has_elite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:elite_alloy_controller"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["has_controller"],
+    ["has_reinforced"],
+    ["has_alloy"],
+    ["has_elite"]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

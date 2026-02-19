@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "realisticrecipe:reinforced_ingot"
+  },
+  "base": {
+    "item": "minecraft:redstone"
+  },
+  "addition": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "item": "realisticrecipe:alloy_infused",
+    "count": 1
+  }
+}

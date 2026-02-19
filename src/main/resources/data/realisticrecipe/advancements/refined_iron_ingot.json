@@ -1,0 +1,29 @@
+{
+  "parent": "realisticrecipe:refined_iron",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:refined_iron_ingot"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.refined_iron_ingot.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.refined_iron_ingot.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_refined_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:refined_iron_ingot"]
+          }
+        ]
+      }
+    }
+  }
+}

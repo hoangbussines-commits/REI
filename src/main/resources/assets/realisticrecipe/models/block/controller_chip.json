@@ -1,0 +1,24 @@
+{
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "realisticrecipe:block/controller_chip",
+		"particle": "realisticrecipe:block/controller_chip"
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [2, 0, 8.5],
+			"to": [14, 12, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 14, 17]},
+			"faces": {
+				"north": {"uv": [6, 6, 0, 0], "texture": "#0"},
+				"east": {"uv": [6, 0.5, 12, 1], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [6, 6, 0, 0], "texture": "#0"},
+				"west": {"uv": [6, 1.5, 12, 2], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [6, 0, 12, 0.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [6, 1, 12, 1.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {}
+}

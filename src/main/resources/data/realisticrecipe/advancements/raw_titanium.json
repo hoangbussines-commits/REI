@@ -1,0 +1,29 @@
+{
+  "parent": "realisticrecipe:root",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:raw_titanium"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.raw_titanium.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.raw_titanium.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_raw_titanium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:raw_titanium"]
+          }
+        ]
+      }
+    }
+  }
+}

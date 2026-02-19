@@ -1,0 +1,29 @@
+{
+  "parent": "realisticrecipe:reinforced_ingot",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:reinforced_helmet"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.reinforced_helmet.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.reinforced_helmet.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "get_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["realisticrecipe:reinforced_helmet"]
+          }
+        ]
+      }
+    }
+  }
+}
