@@ -1,46 +1,100 @@
+# ⚡ REALISTIC ENERGY INDUSTRIAL (REI) ⚡
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+**A Minecraft Forge mod that enhances industrial progression using only vanilla machinery.**
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+---
 
-Setup Process:
-==============================
+## 📖 OVERVIEW
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+**REI** (Realistic Energy Industrial) is a Minecraft mod designed to provide an immersive industrial experience **without adding new machines or blocks**. Everything is built upon vanilla Minecraft mechanics:
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+- 🔥 Furnace
+- ⚒️ Crafting Table
+- 🔨 Blast Furnace
+- ⚙️ Other vanilla blocks
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
+**Philosophy:** *"Vanilla machinery, industrial complexity"*
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
+---
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+## ✨ FEATURES
 
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+### 🏭 **Realistic Metallurgy**
+```
+Raw Iron → Pig Iron → Iron Ingot
+Raw Titanium (from Diamond/Gold) → Titanium Ingot
+Refined Iron → Refined Iron Ingot → Reinforced Ingot
+```
+
+### ⚔️ **New Equipment**
+- **Reinforced Tools & Armor** - Superior durability and strength
+- **Titanium Gear** - Lightweight and powerful
+- **Industrial Alloys** - Advanced material combinations
+
+### 🎯 **Progression System**
+- Disabled vanilla iron tools recipes
+- Multi-stage smelting process
+- Rare material discovery (Titanium from Diamond/Gold ores)
+- Complete advancement tree
+
+### 🔧 **Technical Features**
+- Mixin-based recipe modification
+- Loot modifier for Titanium
+- Custom alloy system
+- 20+ new items
+- **0 new blocks** - Everything uses vanilla machinery!
+
+---
+
+## 📦 REQUIREMENTS
+
+- **Minecraft:** 1.20.1
+- **Forge:** 47.x or later
+- **No other mods required** (fully standalone)
+
+---
+
+## ⚙️ INSTALLATION
+
+1. Install Minecraft Forge 1.20.1
+2. Download the latest REI mod jar (from official source)
+3. Place the jar file in `.minecraft/mods` folder
+4. Launch the game
+5. **Enjoy the industrial experience!**
+
+---
+
+## 🎮 GAMEPLAY GUIDE
+
+### **Basic Progression**
+
+1. **Mine Raw Iron** - Collect raw iron ore
+2. **First Smelting** - Smelt raw iron into **Pig Iron Raw** (in furnace)
+3. **Second Smelting** - Smelt pig iron raw into **Iron Ingot** (in furnace)
+4. **Refined Iron** - Smelt iron ingot in blast furnace to get **Refined Iron**
+5. **Titanium Hunt** - Mine diamond/gold ores for a chance to get **Raw Titanium**
+6. **Titanium Ingot** - Smelt raw titanium
+7. **Reinforced Ingot** - Craft using Titanium + Refined Iron Ingot + Iron Ingot
+8. **Reinforced Gear** - Craft powerful tools and armor
+
+### **Key Recipes**
+
+| Item | Recipe |
+|------|--------|
+| Iron Plate | 3 Iron Ingots (shaped) |
+| Controller Chip | Iron Plates + Refined Iron Ingot + Redstone |
+| Infused Alloy | Smithing: Reinforced Ingot + Redstone + Iron Ingot |
+| Elite Alloy Controller | Smithing: Controller Chip + Infused Alloy + Reinforced Ingot |
+
+---
+
+## 🔧 ADVANCEMENTS
+
+Full advancement tree guides you through:
+- 🏁 **Root** - Start your industrial journey
+- ⚙️ **Iron Age** - Master basic metallurgy
+- 🔩 **Titanium Age** - Discover and process titanium
+- ⚔️ **Reinforced Age** - Craft ultimate gear
+- 🏆 **Fully Reinforced** - Complete full set of reinforced armor
+
+---

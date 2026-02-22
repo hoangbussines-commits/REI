@@ -1,50 +1,62 @@
 @echo off
-title REI Mod Git Automation
+title REI Mod Git Automation (MASTER)
 color 0A
 
 set REPO_PATH=K:\MinecraftMods\RealisticRecipe\forge-1.20.1-47.4.16-mdk
 set REMOTE_URL=https://github.com/hoangbussines-commits/REI.git
 
+cd /d %REPO_PATH%
+
 echo ========================================
-echo    REI MOD GIT AUTOMATION
+echo    REI MOD GIT AUTOMATION (MASTER)
 echo ========================================
 echo.
 
-cd /d %REPO_PATH%
-
+:: Kiểm tra git repo
 if not exist .git (
-    echo [1/6] Initializing git repository...
+    echo [1/7] Initializing git repository...
     git init
     git remote add origin %REMOTE_URL%
 ) else (
-    echo [1/6] Git repository already exists.
+    echo [1/7] Git repository already exists.
 )
 
-echo [2/6] Checking remote connection...
+:: Kiểm tra remote
+echo [2/7] Checking remote connection...
 git remote -v
 
-echo [3/6] Pulling latest changes...
-git pull origin main --allow-unrelated-histories
+:: Fetch remote
+echo [3/7] Fetching remote...
+git fetch origin
 
-echo [4/6] Adding changes...
-git add .
+:: Pull từ master (lần đầu có thể lỗi, nhưng kệ)
+echo [4/7] Pulling from master...
+git pull origin master --allow-unrelated-histories -X theirs 2>nul
 
+:: Add changes
+echo [5/7] Adding changes...
+git add . 2>nul
+
+:: Status
 echo.
 echo ======== CURRENT STATUS ========
 git status
 echo ================================
 echo.
 
+:: Nhập commit message
 set /p COMMIT_MSG="Enter commit message: "
 
-echo [5/6] Committing...
+:: Commit
+echo [6/7] Committing...
 git commit -m "%COMMIT_MSG%"
 
-echo [6/6] Pushing to remote...
-git push origin main
+:: Push lên master
+echo [7/7] Pushing to master...
+git push -u origin master
 
 echo.
 echo ========================================
-echo    DONE! Code pushed successfully!
+echo    DONE! Pushed to MASTER successfully!
 echo ========================================
 pause
