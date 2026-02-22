@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "realisticrecipe:block/battery/battery_fe"
+    }
+  }
+}

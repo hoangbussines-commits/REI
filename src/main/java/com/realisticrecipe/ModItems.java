@@ -1,5 +1,7 @@
 package com.realisticrecipe;
 
+import com.realisticrecipe.init.ModBlocks;
+import com.realisticrecipe.item.REIReaderItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
@@ -84,9 +86,29 @@ public class ModItems {
             "controller_chip",
             () -> new Item(new Item.Properties())
     );
+    public static final RegistryObject<Item> STEEL_INGOT =
+            ITEMS.register("steel_ingot",
+                    () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GRAPHITE_INGOT =
             ITEMS.register("graphite_ingot",
                     () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REINFORCED_FURNACE =
+            ITEMS.register("reinforced_furnace",
+                    () -> new BlockItem(ModBlocks.REINFORCED_FURNACE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> BATTERY_FE =
+            ITEMS.register("battery_fe",
+                    () -> new BlockItem(ModBlocks.BATTERY_FE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> MATERIAL_FURNACE =
+            ITEMS.register("material_furnace",
+                    () -> new BlockItem(ModBlocks.MATERIAL_FURNACE.get(), new Item.Properties()));
+    public static final RegistryObject<Item> REI_READER = ITEMS.register("rei_reader",
+            REIReaderItem::new);
+    public static final RegistryObject<Item> RAW_OSMIUM =
+            ITEMS.register("raw_osmium",
+                    () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> OSMIUM_INGOT =
+            ITEMS.register("osmium_ingot",
+                    () -> new Item(new Item.Properties()));
 }
 

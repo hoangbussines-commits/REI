@@ -1,5 +1,6 @@
 package com.realisticrecipe;
 
+import com.realisticrecipe.init.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,12 +19,15 @@ public class ModCreativeTab {
                             .title(Component.translatable("creativetab.realisticrecipe"))
                             .icon(() -> new ItemStack(ModItems.REFINED_IRON.get()))
                             .displayItems((params, output) -> {
-                                output.accept(ModItems.REFINED_IRON.get());
-                                output.accept(ModItems.REFINED_IRON_INGOT.get());
                                 output.accept(ModItems.CONTROLLER_CHIP.get());
                                 output.accept(ModItems.IRON_PLATE.get());
                                 output.accept(ModItems.RAW_TITANIUM.get());
                                 output.accept(ModItems.PIG_IRON_RAW.get());
+                                output.accept(ModItems.RAW_OSMIUM.get());
+                                output.accept(ModItems.OSMIUM_INGOT.get());
+                                output.accept(ModItems.REFINED_IRON.get());
+                                output.accept(ModItems.REFINED_IRON_INGOT.get());
+                                output.accept(ModItems.STEEL_INGOT.get());
                                 output.accept(ModItems.TITANIUM_INGOT.get());
                                 output.accept(ModItems.REINFORCED_INGOT.get());
                                 output.accept(ModItems.ALLOY_INFUSED.get());
@@ -37,10 +41,11 @@ public class ModCreativeTab {
                                 output.accept(ModItems.REINFORCED_AXE.get());
                                 output.accept(ModItems.REINFORCED_SHOVEL.get());
                                 output.accept(ModItems.REINFORCED_HOE.get());
+                                output.accept(ModItems.REI_READER.get());
                                 output.accept(ModItems.TITANIUM_NUGGET.get());
                                 output.accept(ModItems.GRAPHITE_INGOT.get());
-
-
+                                output.accept(ModBlocks.REINFORCED_FURNACE.get());
+                                output.accept(ModItems.BATTERY_FE.get());
                             })
                             .build()
             );

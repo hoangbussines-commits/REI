@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    "EXE",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "item": "realisticrecipe:reinforced_ingot"
+    },
+    "C": {
+      "item": "realisticrecipe:controller_chip"
+    },
+    "E": {
+      "item": "realisticrecipe:elite_alloy_controller"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "realisticrecipe:battery_fe",
+    "count": 1
+  }
+}

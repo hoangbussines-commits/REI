@@ -1,6 +1,7 @@
 {
   "entries": [
-    "realisticrecipe:titanium_from_diamond_gold"
+    "realisticrecipe:titanium_from_diamond_gold",
+    "realisticrecipe:osmium_from_diamond"
   ],
   "replace": false
 }

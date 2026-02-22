@@ -42,6 +42,7 @@ public class MixinRecipeManagerIronTools {
             method = "getRecipeFor(Lnet/minecraft/world/item/crafting/RecipeType;Lnet/minecraft/world/Container;Lnet/minecraft/world/level/Level;)Ljava/util/Optional;",
             at = @At("RETURN"),
             cancellable = true
+
     )
     private void blockIronToolsCrafting(RecipeType<?> type, Container container, Level level,
                                         CallbackInfoReturnable<Optional<Recipe<?>>> cir) {
@@ -76,6 +77,7 @@ public class MixinRecipeManagerIronTools {
             method = "byKey",
             at = @At("RETURN"),
             cancellable = true
+
     )
     private void blockIronToolsByKey(ResourceLocation id, CallbackInfoReturnable<Optional<Recipe<?>>> cir) {
         for (String tool : IRON_TOOLS) {
@@ -89,6 +91,7 @@ public class MixinRecipeManagerIronTools {
             method = "byKey",
             at = @At("RETURN"),
             cancellable = true
+
     )
     private void blockBlastingFurnace(ResourceLocation id, CallbackInfoReturnable<Optional<Recipe<?>>> cir) {
         if (id.toString().equals("minecraft:blast_furnace")) {

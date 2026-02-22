@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "realisticrecipe:block/material_furnace"
+    },
+    "facing=south": {
+      "model": "realisticrecipe:block/material_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "realisticrecipe:block/material_furnace",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "realisticrecipe:block/material_furnace",
+      "y": 90
+    }
+  }
+}

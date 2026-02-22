@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/blast_furnace",
+  "textures": {
+    "particle": "minecraft:block/netherite_block",
+    "bottom": "minecraft:block/netherite_block",
+    "side": "minecraft:block/netherite_block",
+    "top": "minecraft:block/netherite_block",
+    "front": "minecraft:block/blast_furnace_front"
+  }
+}

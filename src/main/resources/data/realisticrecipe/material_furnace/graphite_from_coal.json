@@ -1,0 +1,6 @@
+{
+  "ingredient": { "item": "minecraft:coal" },
+  "result": { "item": "realisticrecipe:graphite_ingot", "count": 1 },
+  "PowerCost": 600,
+  "cookingtime": 200
+}

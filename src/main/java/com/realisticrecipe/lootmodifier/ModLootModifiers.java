@@ -14,7 +14,8 @@ public class ModLootModifiers {
 
     public static final RegistryObject<Codec<? extends IGlobalLootModifier>> TITANIUM_LOOT =
             LOOT_MODIFIER_SERIALIZERS.register("titanium_loot", TitaniumLootModifier.CODEC);
-
+    public static final RegistryObject<Codec<? extends IGlobalLootModifier>> OSMIUM_LOOT =
+            LOOT_MODIFIER_SERIALIZERS.register("osmium_loot", OsmiumLootModifier.CODEC);
     public static void register(IEventBus bus) {
         LOOT_MODIFIER_SERIALIZERS.register(bus);
     }

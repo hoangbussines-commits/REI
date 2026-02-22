@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ERE",
+    "R R",
+    "ERE"
+  ],
+  "key": {
+    "E": {
+      "item": "realisticrecipe:elite_alloy_controller"
+    },
+    "R": {
+      "item": "realisticrecipe:reinforced_ingot"
+    }
+  },
+  "result": {
+    "item": "realisticrecipe:reinforced_furnace",
+    "count": 1
+  }
+}

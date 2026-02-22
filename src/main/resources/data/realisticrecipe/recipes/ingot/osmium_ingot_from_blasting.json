@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "realisticrecipe:raw_osmium"
+  },
+  "result": "realisticrecipe:osmium_ingot",
+  "experience": 1.2,
+  "cookingtime": 100
+}

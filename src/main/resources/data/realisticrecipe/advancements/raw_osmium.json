@@ -1,0 +1,32 @@
+{
+  "parent": "realisticrecipe:root",
+  "display": {
+    "icon": {
+      "item": "realisticrecipe:raw_osmium"
+    },
+    "title": {
+      "translate": "advancement.realisticrecipe.raw_osmium.title"
+    },
+    "description": {
+      "translate": "advancement.realisticrecipe.raw_osmium.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_raw_osmium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "realisticrecipe:raw_osmium"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

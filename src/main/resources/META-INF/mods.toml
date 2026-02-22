@@ -4,8 +4,8 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="realisticrecipe"
-version="1.0.0"
-displayName="REI Beta"
+version="1.0.1"
+displayName="REI:Official"
 logoFile="logo.png"
 authors=["HycordTeams"]
 credits="Hycord Server(motivator), Ronnas [DucOanh](author's friend)"

@@ -1,0 +1,44 @@
+{
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "realisticrecipe:block/battery/bottom_battery",
+		"1": "realisticrecipe:block/battery/around_battery",
+		"particle": "realisticrecipe:block/battery/bottom_battery"
+	},
+	"elements": [
+		{
+			"name": "bottom_battery",
+			"from": [0, 0, 0],
+			"to": [16, 1, 16],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 1.5], "texture": "#0"},
+				"east": {"uv": [8, 1.5, 16, 3], "texture": "#0"},
+				"south": {"uv": [8, 3, 16, 4.5], "texture": "#0"},
+				"west": {"uv": [8, 4.5, 16, 6], "texture": "#0"},
+				"up": {"uv": [8, 8, 0, 0], "texture": "#0"},
+				"down": {"uv": [8, 8, 0, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "around_battery",
+			"from": [0, 1, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [4, 0, 8, 3.75], "texture": "#1"},
+				"east": {"uv": [4, 3.75, 8, 7.5], "texture": "#1"},
+				"south": {"uv": [4, 7.5, 8, 11.25], "texture": "#1"},
+				"west": {"uv": [0, 8, 4, 11.75], "texture": "#1"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#1"},
+				"down": {"uv": [4, 4, 0, 8], "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Battery",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}
